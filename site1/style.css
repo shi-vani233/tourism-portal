@@ -1,0 +1,70 @@
+  body,html {
+    font-family: sans-serif;
+    background-size:100%;
+display:block;
+padding:0 !important;
+margin:0;
+background: url("images/sam.jpg") no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+  }
+  @media only screen and (max-width: 400px),only screen and (max-height: 500px) {
+    .container {   
+      width: 70% !important;
+      margin-top: 70px !important;
+    }
+  }
+
+  .container {
+    background-color: white ;
+    margin-top: 150px;
+    width: 350px;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 5px 15px;
+    border-radius: 10px;
+  } 
+  .container h1 {
+    margin: 0 0 10px;
+    text-align: center;
+  }
+  .form-control
+  {
+    border-radius:20px;
+  }
+ .form-control input
+ {
+  width: 90%;
+  padding: 5px 0;
+  outline: none;
+  border: none;
+  font-size: 17px;
+  margin-bottom: 25px;
+  color: black;
+ 
+ }
+  ::placeholder {
+    color: rgb(145, 145, 145);
+    font-size: 17px;
+  }
+  .btn {
+      font-size: 15px;
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+      background-color:#147affe7;
+      border-radius:15px;
+      cursor:pointer;
+      padding:7px 10px;
+      margin: 5px 5px;
+      border:none;
+  }
+  .btn:hover {
+    background: #7099ff;
+    color: rgb(255, 255, 255);
+  }
+  .btn:active {
+    position:relative;
+  }
+  
